@@ -33,6 +33,7 @@ public class ContactController {
 	public Page<Contact> chercher(@RequestParam(name="mc",defaultValue="") String motcle,
 			@RequestParam(name="page",defaultValue="0") int page,
 			@RequestParam(name="size",defaultValue="5") int size){
+				//Comments 
 		return contactRepository.chercher("%"+motcle+"%", new PageRequest(page, size));
 	}
 	
