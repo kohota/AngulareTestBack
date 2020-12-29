@@ -23,9 +23,7 @@ public class AngularTestApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		/*DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-		contactRepository.save(new Contact("Maarouf", "Youness", dateFormat.parse("21/07/1993"), "maarouuf_younes@hotmail.fr", "0628882147","D:/images/moi.jpg"));
-		*/
+		
 		
 	}
 }
